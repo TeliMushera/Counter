@@ -1,0 +1,40 @@
+body{
+    background: #1a6985;
+}
+
+#h1{
+    color: #000000;
+    text-align: center;
+    font-size: 3em;
+    font-family: emoji;
+}
+#counterLabel{
+    display: block;
+    text-align: center;
+    font-size: 9em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #080808;
+
+}
+
+#btnContainer{
+    text-align: center;
+    font-size: large;
+}
+
+.btn{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: #2187ab;
+    background: #000000;
+    border-radius: 23px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+    border: #2eabd8 2px solid;
+}
+
+.btn:hover{
+    background: #598da0;
+    color: #000000;
+    border: #000000 2px solid;
+}
